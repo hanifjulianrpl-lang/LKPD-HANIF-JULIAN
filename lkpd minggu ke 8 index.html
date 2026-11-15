@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PTS Praktik - Web Portofolio Pribadi</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <h2>[Nama Lengkapmu]</h2>
+    </div>
+     <ul class="menu-navigasi">
+            <li><a href="#beranda">Tentang Saya</a></li>
+            <li><a href="#keahlian">Keahlian</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+    </ul>
+    </div>
+    <div class="hero" id="beranda">
+        <div class="hero-teks">
+         <h1>Halo, Saya [Nama Lengkapmu], Calon Web Developer</h1>
+            <p>
+                Saya siswa jurusan Rekayasa Perangkat Lunak yang suka membuat website
+                dan belajar pemrograman. Saat ini saya sedang mengasah kemampuan HTML,
+                CSS, dan Python untuk bersiap PKL dan dunia kerja di bidang IT.
+            </p>
+            <a href="#kontak" class="tombol-utama">Hubungi Saya</a>
+        </div>
+        <div class="hero-gambar">
+        <img src="https://placehold.co/400x300" alt="Foto profil [Nama Lengkapmu]">
+        </div>
+    </div>
+    <div class="bagian-konten" id="keahlian">
+        <h2 class="judul-bagian">Keahlian Saya</h2>
+        <div class="wadah-tiga-kolom">
+         <div class="kartu">
+                <img src="https://placehold.co/150x150" alt="Ikon HTML5">
+                <h3>HTML5</h3>
+                <p>Menyusun struktur halaman web dengan tag semantik, tabel, formulir, dan tautan.</p>
+        </div>
+        <div class="kartu">
+                <img src="https://placehold.co/150x150" alt="Ikon CSS3">
+                <h3>CSS3</h3>
+                <p>Menghias tampilan web dengan Box Model, Flexbox, dan Media Queries agar responsif.</p>
+        </div>
+        <div class="kartu">
+                <img src="https://placehold.co/150x150" alt="Ikon Python">
+                <h3>Python</h3>
+                <p>Menulis program dasar dengan logika algoritma, percabangan, dan perulangan.</p>
+        </div>
+
+    </div>
+    </div>
+    <div class="bagian-interaksi" id="kontak">
+        <h2 class="judul-bagian">Hubungi Saya</h2>
+        <form action="#" method="POST" class="form-pts">
+            <div class="grup-input">
+                <label for="nama">Nama Pengirim:</label><br>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda..." required>
+            </div>
+            <br>
+            <div class="grup-input">
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="contoh@email.com" required>
+            </div>
+            <br>
+            <div class="grup-input">
+                <label for="pesan">Pesan:</label><br>
+                <textarea id="pesan" name="pesan" rows="4" placeholder="Tulis pesan Anda di sini..."></textarea>
+            </div>
+            <br>
+            <button type="submit" class="tombol-kirim">Kirim Pesan</button>
+        </form>
+    </div>
+    <div class="footer">
+        <p>&copy; 2026 - Dibuat oleh [Nama Lengkapmu] Kelas X RPL.</p>
+    </div>
+</body>
+</html>
